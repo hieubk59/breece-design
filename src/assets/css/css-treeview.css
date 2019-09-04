@@ -1,0 +1,25 @@
+/* Css ll Tree View 2019 */
+.treeview li.branch { margin-bottom: 10px; display: block}
+.treeview li.branch li.branch { margin-bottom: 0px;}
+.treeview, .treeview ul {  margin:0; padding:0; list-style:none; position: relative;}
+.treeview { padding-top:7px}
+.treeview ul {position:relative }
+.treeview li { display: inline-block; width: 100%;}
+.treeview ul li { padding: 7px 15px; margin-bottom: 1px; cursor: pointer; padding-bottom: 0}
+.treeview ul ul { padding-top: 4px; padding-bottom: 0;}
+.treeview ul ul li:hover { background: #def0ff;}
+.treeview ul ul li { padding:7px 15px 0px 40px}
+/*.treeview ul:before { content:""; display:block; width:0; position:absolute; top:0; bottom:0; left:0; border-left:1px solid}*/
+.treeview li {margin:0; padding:0 0; line-height: 18px; position:relative; color: #222; font-size: 12px; font-weight: normal}
+/*.tree ul li:before { content:""; display:block; width:10px; height:0; border-top:1px solid; margin-top:-1px; position:absolute; top:1em; left:0}
+.tree ul li:last-child:before {background:#fff; height:auto; top:1em; bottom:0}*/
+.indicator { margin-right:10px; font-size: 8px; cursor: pointer}
+.treeview a  { color: #222;}
+.treeview li button:active, .treeview li button:focus { text-decoration: none; color:#369; border:none; background:transparent; margin:0px 0px 0px 0px; padding:0px 0px 0px 0px; outline: 0;}
+
+.drop-dote-click { position: relative; float: right; width: 24px; height: 24px; text-align: center;}
+.drop-dote-click a i { font-size: 12px; color: #222;}
+.wr-toggle-dot { margin-top: 2px; display: inline-block; }
+.drop-dote-click .dropdown-menu { left: auto; right: -40px; top: 26px; text-align: center;}
+.drop-dote-click .dropdown-menu a { font-size: 12px; padding: 7px 10px; display: block; margin:0 7px; text-align: left;}
+.drop-dote-click .dropdown-menu a:hover { background: #def0ff; }

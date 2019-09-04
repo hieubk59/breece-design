@@ -1,0 +1,119 @@
+.dg-wrapper {
+	position: static;
+	width: 0;
+	height: 0;
+	user-select: none;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-o-user-select: none
+}
+.dg-controls {
+	display: inline-block;
+	box-sizing: border-box;
+	top: 0;
+	left: 0;
+	z-index: 2147483647;
+	border: 1px dashed #58b3f9;
+	border-color: transparent!important;
+	cursor: move
+}
+.dg-controls.edit {border-color: #58b3f9!important}
+.dg-hdl {
+	cursor: pointer;
+	border-radius: 0px;
+	width: 8px;
+	height: 8px;
+	background-color: #58b3f9;
+	border: 0px solid #32b5fe;
+	margin-top: -4px;
+	margin-left: -4px;
+	display: none;
+}
+.dg-controls.edit .dg-hdl { display: inline-block}
+.dg-hdl.dg-rotator {
+	font-family: simple-line-icons;
+    speak: none;
+    font-style: normal;
+    font-weight: 400;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-transition: all .2s;
+    -webkit-transition: font-size .2s;
+    font-size: 14px;
+    margin: 0 10px 0 -7px;
+    text-align: left;
+    vertical-align: middle;
+    width: auto;
+    transition: all .3s ease 0s;
+	background-color: transparent!important;
+}
+.dg-hdl.dg-rotator:before {
+    content: "\e098";
+
+}
+.dg, .dg-controls, .dg-hdl {
+	position: absolute
+}
+.dg-hdl-t {
+	top: 0
+}
+.dg-hdl-m {
+	top: 50%
+}
+.dg-hdl-b {
+	top: 100%
+}
+.dg-hdl-l {
+	left: 0
+}
+.dg-hdl-c {
+	left: 50%
+}
+.dg-hdl-r {
+	left: 100%
+}
+.dg-rotator {
+	top: -25px;
+	left: 50%
+}
+.draggable {
+	position: absolute;
+	width:80px;
+	height:50px; 
+}
+.class1 { background-color: yellow}
+.class2 { background-color: RED}
+
+.wr-sub-nav.active ul li a canvas { display: none; width: 10px; height: 10px;}
+
+
+.wr-box-dragdrop { width: 100%; position: relative; top: 0; bottom: 0; height: 100%; overflow: hidden;}
+
+.wr-video.draggable { background: #f0f0f0; height: 100px; width: 180px; text-align: center}
+.wr-video.draggable i { font-size: 32px; color: #d5d8dd; position: absolute; top: 50%; margin-top: -16px; left: 50%; margin-left: -16px;}
+
+.wr-image.draggable { background: #f0f0f0; height: 100px; width: 100px; text-align: center}
+.wr-image.draggable i { font-size: 32px; color: #d5d8dd; position: absolute; top: 50%; margin-top: -16px; left: 50%; margin-left: -16px;}
+
+.draggable .txt { display: none }
+
+.wr-quare.draggable { background: #f40e0e; height: 40px; width: 40px; text-align: center;border: 2px solid #000;}
+.wr-quare.draggable i { font-size: 32px; color: #d5d8dd; position: absolute; top: 50%; margin-top: -16px; left: 50%; margin-left: -16px; display: none}
+.wr-quare.draggable canvas { display: block; background: yellow; height: 100%; width: 100%; border: 2px solid #000}
+
+.wr-rectangle.draggable { background: #59ed08; height: 80px; width: 40px; text-align: center; border: 2px solid #000;}
+.wr-rectangle.draggable i { font-size: 32px; color: #d5d8dd; position: absolute; top: 50%; margin-top: -16px; left: 50%; margin-left: -16px; display: none}
+.wr-rectangle.draggable canvas { display: block; background: yellow; height: 100%; width: 100%; border: 2px solid #000}
+
+.wr-circle.draggable { background: #df59f4; height: 40px; width: 40px; text-align: center; border: 2px solid #000; border-radius: 50%}
+.wr-circle.draggable i { font-size: 32px; color: #d5d8dd; position: absolute; top: 50%; margin-top: -16px; left: 50%; margin-left: -16px; display: none}
+.wr-circle.draggable canvas { display: block; background: yellow; height: 100%; width: 100%; border: 2px solid #000; border-radius: 50%}
+
+.wr-text.draggable { background-color: transparent; height: 20px; width: 100px; text-align: center;}
+.wr-text.draggable i { font-size: 9px; position: absolute; top: 7px; left:0; margin-left:5px; color: #000}
+
+.hd-canvas.active { display: none!important}
+.hd-video.active-vi { display: none!important}

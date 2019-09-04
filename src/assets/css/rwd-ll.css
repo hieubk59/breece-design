@@ -1,0 +1,80 @@
+/* Css ll customize 2019 */
+
+@media only screen and (max-width: 1700px){
+.line-login-left-1 {    width: 20px; height: 2500px; right: 345px;  top: -200px;}
+.line-login-left-2 {    width: 112px;  height: 2500px; right: 232px;  top: -200px;}
+.line-login-left-3 { width: 600px; height: 2500px; right: -526px;  top: -1000px; }
+}
+
+@media only screen and (max-width: 1660px){
+	.show-1660 { display: inline-block; position: relative}
+	.out-list-align { display: none;}
+	.out-list-align.active { z-index: 9; display: inline-block; position: absolute; width: 112px; border: 1px solid #e3e3e3; background: #f8f8f8; top: 31px; right:4px; border-radius: 3px; padding: 7px 0}
+	.out-list-align.active li { border:none}
+	.out-list-align.active li ul.wr-list-align li { margin-bottom: 3px;}
+	
+}
+@media only screen and (max-width: 1600px){
+.out-left-login { padding-left: 50px; padding-top: 50px;}
+.out-right-login { padding-left: 30px; padding-top: 50px;}
+.out-box-login h4 { margin-top: 30px;}
+.out-txt-left-login { margin-top: 50px;}
+}
+@media only screen and (max-width: 1500px){
+	.out-img-show-create { right: -310px; margin-top: 25px;}
+}
+@media only screen and (max-width: 1400px){
+.out-txt-left-login { max-width: 400px;}
+.out-txt-left-login h2 { margin-top: 0px; margin-bottom: 20px; font-size: 24px;}
+	
+}
+
+@media only screen and (max-width: 1280px){
+.out-nav-mt-top .input-group .form-control, .out-nav-mt-top .btn-group.bootstrap-select .form-control { padding-left: 3px; padding-right: 5px;}
+.wr-block-wh .form-group { max-width: 50px;}
+.btn-horizontal { margin-right: 10px;}
+.btn.btn-icon-right { padding-left: 10px;}
+.btn.btn-icon-right i { width: 25px;}
+}
+@media only screen and (max-width: 1260px){
+	.out-box-login { max-width: 380px;}
+	.out-left-login { padding-left: 30px; padding-top: 30px;}
+    .out-right-login { padding-left: 0px; padding-top: 30px;}
+	.out-txt-left-login { margin-top: 30px; }
+	.out-txt-left-login { max-width: 380px;}
+	.out-img-show-create { width: 320px; height: 202px; padding: 10px 0;}
+	.out-img-show-create { right: -210px; margin-top: 25px;}
+}
+@media only screen and (max-width: 1180px){
+	.out-txt-left-login p { max-width: 80%; display: inline-block}
+}
+@media only screen and (max-width: 1140px){
+.box-block-left .form-group.name { max-width: 130px;}
+.box-block-left .out-seclect-color { width: 50px;}
+.click-show-align-box { margin-right: 0}
+.out-list-align.active { right: 0}
+.box-block-left .btn-group.bootstrap-select.nav-top { max-width: 180px;}
+.box-block-left .txt { margin-right: 5px;}
+.box-block-left li { padding: 0 5px;}
+.box-block-left .btn-size-all.nav-top { margin: 7px 5px;}
+.box-block-left .btn-size-all.nav-top.active { margin-right: 5px;}
+.btn-vertical, .btn-horizontal { margin-right: 5px;}
+
+}
+
+@media only screen and (max-width: 1100px){
+	.out-img-show-create { width: 256px; height: 165px; padding: 10px 0;}
+	.out-img-show-create { right: -110px; margin-top: 25px;}
+}
+@media only screen and (max-width: 1060px){
+	.out-txt-left-login {max-width: 320px;}
+}
+
+@media only screen and (max-height: 650px){
+	.out-box-login h4 { margin-top: 0;}
+	.out-txt-left-login { margin-top: 20px;}
+	.out-left-login { padding-top: 30px}
+}
+@media only screen and (max-height: 560px){
+	.out-login { height: 560px; overflow-y: scroll}
+}

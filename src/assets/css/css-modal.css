@@ -1,0 +1,69 @@
+/* Css ll Modal 2019 */
+/*line 4521 vs 4531 lock transition modal bootstrap.min.css */
+.modal-body { padding: 20px;}
+.no-bg-modal .modal-backdrop { opacity: 0} /*hiden bg overlay modal */
+.no-bg-modal .modal-backdrop.show { opacity: 0}
+
+.out-modal-createnew {}
+
+.out-modal-createnew .modal-content { border-color: #cdd8e1; background-color: #f8f8f8; height: 690px;}
+.out-modal-createnew .modal-content .modal-header { background: #fff; padding: 12px 15px; color: #222222}
+.out-modal-createnew .modal-content .modal-header .close { font-size: 15px; color: #9fa9ba; opacity: 1; outline: none}
+.out-modal-createnew .modal-content .modal-title { font-size: 12px; }
+.out-modal-createnew .modal-footer { border: none; padding: 10px 15px 15px; display: inline-block; width: 100%}
+.out-modal-createnew .modal-content .wr-cont-md { background-color: #fff; border: 1px solid #e4e4e4; padding: 15px; height: 516px; overflow-y: auto;}
+.out-modal-createnew.move-box .modal-content .wr-cont-md { background-color: #fff; border: 1px solid #e4e4e4; padding: 15px; height: 316px; overflow-y: auto;}
+.out-modal-createnew .modal-content .wr-tt-cont-md  h4 { font-size: 10px; text-transform: uppercase; color: #9fa9ba}
+
+.list-delete-create { width: 100%; padding: 0; margin: 0; margin-top: 15px; position: relative; display: inline-block; list-style: none}
+.list-delete-create li { width: 100%; margin: 0; padding: 7px 15px; list-style: none; position: relative; display: inline-block}
+.list-delete-create li:hover { background: #def0ff; }
+.list-delete-create li a { float: left; font-size: 12px; color: #222;}
+.list-delete-create li i { float: right; position: relative; color: #1967ab; font-size: 9px; top: 4px; display: none}
+.list-delete-create li:hover i { display: block; }
+.list-delete-create .checkbox.checkbox-success { position: absolute; right: 0px; top: -3px;}
+
+.out-modal-properties {}
+
+.out-modal-properties .modal-content { border-color: #cdd8e1; background-color: #f8f8f8; height: 690px;}
+.out-modal-properties .modal-content .modal-header { background: #fff; padding: 12px 15px; color: #222222}
+.out-modal-properties .modal-content .modal-header .close { font-size: 15px; color: #9fa9ba; opacity: 1; outline: none}
+.out-modal-properties .modal-content .modal-title { font-size: 12px; }
+.out-modal-properties .modal-footer { border: none; padding: 10px 15px 15px; display: inline-block; width: 100%}
+.out-modal-properties .modal-content .wr-cont-md { background-color: #fff; border: 1px solid #e4e4e4; padding: 15px; height: 516px; overflow-y: auto;}
+.out-modal-properties .modal-content .wr-tt-cont-md  h4 { font-size: 10px; text-transform: uppercase; color: #9fa9ba}
+
+.out-modal-define-assignment {}
+
+.out-modal-define-assignment .modal-content { border-color: #cdd8e1; background-color: #f8f8f8; height: 690px;}
+.out-modal-define-assignment .modal-content .modal-header { background: #fff; padding: 12px 15px; color: #222222}
+.out-modal-define-assignment .modal-content .modal-header .close { font-size: 15px; color: #9fa9ba; opacity: 1; outline: none}
+.out-modal-define-assignment .modal-content .modal-title { font-size: 12px; }
+.out-modal-define-assignment .modal-footer { border: none; padding: 10px 15px 15px; display: inline-block; width: 100%}
+.out-modal-define-assignment .modal-content .wr-cont-md { background-color: #fff; border: 1px solid #e4e4e4; padding: 15px; height: 516px; overflow-y: auto;}
+.out-modal-define-assignment .modal-content .wr-tt-cont-md  h4 { font-size: 10px; text-transform: uppercase; color: #9fa9ba}
+.out-modal-define-assignment .line-dot.line-ft { margin-left: 15px!important; margin-right: 15px!important}
+
+.wr-save-pattern-pp .modal-content { height: 360px; }
+
+.wr-assign-parent-pp .modal-content { height: 190px; }
+
+.wr-clear-value-pp .modal-content { min-height: 200px; height: auto; }
+
+@media only screen and (min-width: 576px){
+.out-modal-createnew .modal-dialog { max-width: 405px; margin: 137px auto 0; }
+.out-modal-createnew.move-box .modal-dialog { max-width: 605px; margin: 137px auto 0; }
+.out-modal-properties .modal-dialog { max-width: 960px; margin: 137px auto 0; }
+.out-modal-define-assignment .modal-dialog { max-width: 960px; margin: 137px auto 0; }
+	
+.out-modal-select-value-pp .modal-dialog { max-width: 800px; margin: 95px auto 0; }
+.wr-save-pattern-pp .modal-dialog { max-width: 405px; margin: 275px auto 0; }
+
+}
+@media only screen and (max-height: 800px){
+.out-modal-createnew .modal-dialog { margin: 15px auto 0!important; }
+.out-modal-properties .modal-dialog { margin: 15px auto 0!important; }
+.out-modal-define-assignment .modal-dialog { margin: 15px auto 0!important; }
+	
+.out-modal-select-value-pp .modal-dialog { margin: 15px auto 0!important; }
+}
